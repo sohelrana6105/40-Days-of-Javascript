@@ -1,5 +1,7 @@
 # Task 01 Note
 
+### **script tag **
+
 ### <script src="script.js"></script> inside the head
 
 In html document inside the head when script tag is added then its download the script tag before html loaded and rendering . Its created problem beacuse if inside the script tag has any code that related to dcoument taht its throw error . Because before html redndering when js will be executed than I wont find any html document and it will throw error like this ` Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')` .
