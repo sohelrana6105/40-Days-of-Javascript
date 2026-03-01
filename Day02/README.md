@@ -1,3 +1,18 @@
+# Variable Naming
+
+- The name must have digits (0-9) or letters <br>
+  Note : This first charecter must not be a digit(0-9) <br>
+- The name can have $ or \_ (anywhere)
+- The name can't be javaScript reserve keyword
+
+### Varibale name standards
+
+- camelCase
+- Humnan Readable
+- varible should match the cause
+
+---
+
 # when javascript see the code (how to execute)
 
 when Javascript see the code ,Its take the code throw three main pahses (sometimes described as four steps) . Beacuse javascript dosent execute directly .It first process .
