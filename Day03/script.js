@@ -68,7 +68,7 @@ const discount = (annualBill * 20) / 100;
 
 const withDiscountAnnualBill = annualBill - discount;
 console.log(
-  `annual payment with 20% discount will be ${withDiscountAnnualBill}`
+  `annual payment with 20% discount will be ${withDiscountAnnualBill}`,
 );
 
 /**
@@ -114,4 +114,4 @@ A tricky one for you
 
 const count = 5;
 
-console.log(count << 1);
+console.log("bitwise doubling", count << 1);
