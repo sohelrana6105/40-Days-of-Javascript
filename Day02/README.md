@@ -1,4 +1,4 @@
-# when javascript see the code
+# when javascript see the code (how to execute)
 
 when Javascript see the code ,Its take the code throw three main pahses (sometimes described as four steps) . Beacuse javascript dosent execute directly .It first process .
 **1.Tokenizing (or Lexical Analysis)**
@@ -9,14 +9,14 @@ when Javascript see the code ,Its take the code throw three main pahses (sometim
 ### 1. Tokenizing
 
 The javacript breaks the code into the small pieces / chunks called tokens .
-![alt text](image.png)
+![Tokenizing](/assests/Tokenizing.png)
 
 ### 2. Parsing
 
 The engine takes all those tokens and builds a structure called an **Abstract syntax tree (AST)**.
 This tree represents the srtucture and realtionship in your code
 [Visualize AST](https://astexplorer.net/)
-![ alt Parsing image](image-1.png)
+![  Parsing ](/assests/parsing.png)
 
 ### 3. Interpreting
 
