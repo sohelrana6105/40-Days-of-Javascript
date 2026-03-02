@@ -10,7 +10,7 @@ switch (day) {
 }
 
 console.log(
-  `switch recieve a value and match the case like (day === case ) . === check value and type both . that why Monday and monday is not same `
+  `switch recieve a value and match the case like (day === case ) . === check value and type both . that why Monday and monday is not same `,
 );
 
 /**
@@ -140,14 +140,14 @@ Take the sides of a triangle as input and write a program to determine the trian
 
 */
 
-let side1 = 5;
+let side1 = 3;
 let side2 = 5;
 let side3 = 5;
 
-if (side1 === side2 && side1 === side3 && side2 === side3) {
+if (side1 === side2 && side2 === side3) {
   console.log("Equilateral Triangle");
 } else if (side1 === side2 || side1 === side3 || side2 === side3) {
-  console.log("Isosceles Triangle.");
-} else if (side1 !== side2 || side1 !== side3 || side2 !== side3) {
-  console.log("Scalene Triangle.");
+  console.log("Isosceles Triangle");
+} else {
+  console.log("Scalene Triangle");
 }
