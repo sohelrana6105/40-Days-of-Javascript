@@ -1,30 +1,32 @@
 let attempt = 0;
+let winningMassage = "";
 
 function numberGuessingGame() {
   const computerNumber = Math.floor(Math.random() * 10) + 1;
-
   let userNumber = Number(prompt("Select a number 1 - 10"));
-
-  while (userNumber !== computerNumber) {
-    attempt++;
-
+  attempt++;
+  if (userNumber !== computerNumber) {
     if (userNumber < computerNumber) {
-      alert("Too low");
+      alert(` Your number is  Too low .  Your have used ${attempt} attemp`);
     } else {
-      alert("Too high");
+      // console.log("Too high");
+      alert(` Your number is  Too high . Your have used ${attempt} attemp`);
     }
-
-    userNumber = Number(prompt("Try again"));
+  }
+  if (userNumber === computerNumber) {
+    winningMassage = `You successfully guessed the number in ${attempt} attempts`;
   }
 
-  attempt++;
+  // attempt++;
 
-  alert(`You successfully guessed the number in ${attempt} attempts`);
+  if (winningMassage) {
+    alert(winningMassage);
+    attempt = 0;
+  }
 
   const isPlayAgain = prompt("Do you want to play again? yes/no");
 
   if (isPlayAgain === "yes") {
-    attempt = 0;
     numberGuessingGame();
   }
 }
