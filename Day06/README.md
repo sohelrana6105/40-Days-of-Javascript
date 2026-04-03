@@ -5,7 +5,7 @@ function f2() {
     f1();
 }
 f2();`
-.
+
 ![execution context 1](/assests/execution%20contex%201-2026-03-27-1808.png)
 
 # 10. Create Call Stack Execution Diagram for this flow
